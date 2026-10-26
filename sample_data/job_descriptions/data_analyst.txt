@@ -1,0 +1,8 @@
+Job Title: Data Analyst / ML Engineer
+
+We are hiring a Data Analyst to build machine learning models and dashboards that drive product decisions. You will work with Python, pandas, SQL, and visualization tools to turn data into insight.
+
+Required Skills: Python, Machine Learning, Pandas, SQL, Data Analysis
+Preferred Skills: TensorFlow, Power BI
+Minimum Experience: 1 year
+Education: Bachelor's degree in Computer Science, Statistics, or related field

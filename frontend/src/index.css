@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap");
+
+@theme {
+  /* Brand palette — carried over from the project's pitch deck for a
+     consistent identity between the presentation and the product. */
+  --color-navy: #1b2454;
+  --color-navy-light: #2a3568;
+  --color-ink: #1b2430;
+  --color-muted: #5b6b79;
+  --color-deepblue: #065a82;
+  --color-teal: #1c7293;
+  --color-mint: #2fb3a3;
+  --color-surface: #f6f9fb;
+  --color-border: #dde6ed;
+  --color-good: #1e9e6b;
+  --color-good-bg: #e5f6ef;
+  --color-bad: #c1443a;
+  --color-bad-bg: #fcebe9;
+  --color-warn: #b8860f;
+  --color-warn-bg: #fbf1de;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-surface);
+}
+
+/* Visible keyboard focus ring everywhere, per accessibility floor */
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 8px;
+}

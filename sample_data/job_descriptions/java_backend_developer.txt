@@ -1,0 +1,8 @@
+Job Title: Java Backend Developer
+
+We are looking for a Java Backend Developer to design and build scalable REST APIs for our fintech platform. You will work with Spring Boot, SQL databases, and modern DevOps tooling in an agile team.
+
+Required Skills: Java, Spring Boot, SQL, REST API, Git
+Preferred Skills: Docker, AWS
+Minimum Experience: 2 years
+Education: Bachelor's degree in Computer Science or related field

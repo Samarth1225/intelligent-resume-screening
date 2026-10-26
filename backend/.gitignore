@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded resumes and generated files
+uploads/
+backend/uploads/
+frontend/uploads/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
